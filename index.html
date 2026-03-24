@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF -8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Blog - Jornada DEV</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <header>
+        <h1>Meu Blog de Estudos</h1>
+    </header>
+
+    <main>
+        <section id="area-publicacao">
+            <h2>Nova Publicação</h2>
+
+            <form id="formulario-post">
+                <div class="campo-grupo">
+                    <label for="titulo">Título da Postagem</label>
+                    <input
+                        type="text"
+                        id="titulo"
+                        placeholder="Digite um título..."
+                        required
+                    >
+                </div>
+                <div class="campo-grupo">
+                    <label for="conteudo">O que você está pensando?</label>
+                    <textarea
+                        id="conteudo"
+                        rows="5"
+                        placeholder="Seu conteúdo aqui..."
+                        required
+                    ></textarea>    
+                </div>
+
+                <button type="submit" id="botao-enviar">Publicar</button>
+            </form>
+        </section>
+
+        <section id="lista-posts">
+            <h2>Postagens Recentes</h2>
+            <div id="container-posts"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Projeto de certificação SENAI</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
