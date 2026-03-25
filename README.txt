@@ -1,33 +1,30 @@
 Projeto de Certificação: Blog Jornada Dev
-Este blog foi desenvolvido como o projeto do curso Jornada Dev no SENAI. O objetivo principal foi colocar em prática a manipulação do DOM e o consumo de APIs REST, utilizando exclusivamente tecnologias nativas para garantir um código leve e bem estruturado.
+Este projeto consiste em uma página de postagem de blog interativa que simula o fluxo de dados de uma rede social. Ele foi desenvolvido como parte do curso Jornada Dev do SENAI, com o objetivo de consolidar conhecimentos em integração de APIs e manipulação do DOM.
 
-O que o projeto faz
-A aplicação simula o funcionamento de um mural de postagens. Ao abrir a página, o script busca dados reais de uma API externa para popular a lista. Além de ler o que já existe, você consegue simular o envio de novos posts através de um formulário que valida os campos antes do disparo.
+Sobre o Projeto
+A aplicação permite que o usuário crie novas postagens através de um formulário e visualize postagens recentes carregadas diretamente de uma API real. O foco principal foi o desenvolvimento utilizando tecnologias nativas para garantir um código limpo e performático.
 
-Destaques técnicos
-Interface Dinâmica: Os novos posts são inseridos no topo da lista sem precisar dar refresh na página, usando o método prepend do JavaScript.
+Funcionalidades
+Carregamento Automático: Ao abrir a página, os posts mais recentes são buscados na API e exibidos na tela.
 
-Consumo de API: Utilizei a Fetch API para realizar as requisições assíncronas (GET e POST) ao serviço JSONPlaceholder.
+Criação de Posts: O usuário pode preencher título e conteúdo para simular a publicação de uma nova mensagem.
 
-CSS Modular: Estilização focada em legibilidade e componentes reutilizáveis, como o sistema de cards para as postagens.
+Feedback em Tempo Real: Assim que o post é enviado, ele aparece instantaneamente no topo da lista.
 
-Tecnologias utilizadas
-Seguindo os requisitos da certificação, o projeto não utiliza frameworks, apenas:
+Tecnologias Utilizadas
+Para atender aos requisitos técnicos da certificação, o projeto foi construído estritamente com:
 
-HTML5: Base semântica para a estrutura.
+HTML5: Estrutura semântica para melhor acessibilidade e SEO.
 
-CSS3: Layout e identidade visual profissional.
+CSS3: Layout responsivo com foco em uma interface limpa e profissional.
 
-Vanilla JavaScript: Lógica de programação e integração com o servidor.
+JavaScript (Vanilla): Lógica de programação pura, utilizando a Fetch API para comunicação assíncrona.
 
-JSONPlaceholder: API de testes para o backend.
+JSONPlaceholder: API externa utilizada para simular o backend e o armazenamento de dados.
 
-Como rodar na sua máquina
-Baixe os arquivos ou clone o repositório.
+Como Executar
+Faça o clone deste repositório ou baixe os arquivos.
 
-Abra o index.html diretamente no navegador (recomendo usar o Live Server no VS Code para uma melhor experiência).
+Abra o arquivo index.html em qualquer navegador moderno.
 
-É necessário internet para carregar os posts que vêm da API.
-
-Notas de desenvolvimento
-Este projeto prioriza a clareza do código. Evitei o uso de bibliotecas externas para demonstrar o domínio sobre os fundamentos da web, mantendo uma estrutura de arquivos organizada e comentários pontuais onde a lógica é mais complexa.
+Certifique-se de estar conectado à internet para que a integração com a API funcione corretamente.
